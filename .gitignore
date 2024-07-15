@@ -1,0 +1,52 @@
+# Diretórios e arquivos de build
+*.exe
+*.dll
+*.dcu
+*.bpl
+*.bpi
+*.obj
+*.lib
+*.res
+*.map
+*.dsk
+
+# Diretórios de configuração da IDE
+__history/
+__recovery/
+*.local
+*.identcache
+*.tvsconfig
+*.ipch
+
+# Arquivos de projeto e configuração específicos da IDE
+*.dres
+*.ddp
+*.cfg
+*.cgl
+*.stat
+*.bpg
+*.bpr
+*.bpk
+*.~*
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Diretórios de versão da unidade
+__pycache__/
+*.py[cod]
+*.so
+
+# Arquivos do Delphi Form
+*.dof
+*.~dfm
+*.~pas
+*.~dpr
+
+# Arquivos do sistema operacional
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Desktop.ini
+*.swp

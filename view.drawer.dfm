@@ -1,0 +1,143 @@
+object frmDrawer: TfrmDrawer
+  Left = 0
+  Top = 0
+  Align = alRight
+  BorderStyle = bsNone
+  Caption = 'frmDrawer'
+  ClientHeight = 768
+  ClientWidth = 900
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object UxieDrawer1: TUxieDrawer
+    Left = -466
+    Top = 0
+    Width = 1366
+    Height = 768
+    Align = alRight
+    BevelOuter = bvNone
+    Color = clWhite
+    ParentBackground = False
+    TabOrder = 0
+    Form = Owner
+    object pnlEmptyState: TPanel
+      Left = 667
+      Top = 136
+      Width = 529
+      Height = 281
+      BevelOuter = bvNone
+      TabOrder = 1
+      Visible = False
+      DesignSize = (
+        529
+        281)
+      object LNada: TLabel
+        Left = 88
+        Top = 103
+        Width = 310
+        Height = 33
+        Alignment = taCenter
+        Caption = 'Nada aqui por enquanto'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -29
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentFont = False
+      end
+      object LTarefa: TLabel
+        Left = 0
+        Top = 153
+        Width = 488
+        Height = 27
+        Alignment = taCenter
+        Caption = 'Sem tarefas em processamento no momento.'
+        Color = clSilver
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clSilver
+        Font.Height = -24
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+      end
+      object LQuando: TLabel
+        Left = 40
+        Top = 186
+        Width = 407
+        Height = 27
+        Alignment = taCenter
+        Caption = 'Quando houver, voc'#234' ver'#225' todas aqui.'
+        Color = clSilver
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clSilver
+        Font.Height = -24
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentColor = False
+        ParentFont = False
+      end
+      object ImgCloud: TImage
+        Left = 202
+        Top = 36
+        Width = 57
+        Height = 57
+        Anchors = [akLeft, akTop, akRight]
+        Picture.Data = {
+          0954506E67496D61676589504E470D0A1A0A0000000D49484452000000410000
+          0040080600000045AB1AE0000000097048597300000B1300000B1301009A9C18
+          000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000003
+          E04944415478DAED9B4D4C134114C7DF6C515148ACD1885EB0F5604409743D48
+          3C182B274FC29ED0C404F1623CA8F4868986120F7812949307A50713E5542A26
+          7A9272E2C3435B454113A598608088A2010391DDF1CD4215684BB7D076E876FE
+          49934977B779F3DB37EFBD69DE104842DEC01FA72449A728250E42C0815FD992
+          793ECD0A53CA3EB40740ED54E4AD41A30F1263935FB84888548B1377F29E6932
+          50344D6B52E43CCF86202CBE794B3B6CAE37BE0E186A9D226FF1270DC1F7566D
+          048DB879CF2075A2EEAA724B936108BE90DA8297EA799B9D0610AD08C2951082
+          F93C200A449447AC80E00DA8F592445A789B996E691A7529B2A5350A8237406D
+          92440338B4F23632039AD6B4795991B7875740F005540F48A496B7759912D613
+          9E6A87A5EE1F84252F18E16D58A6A56964972293E925086A2BC682EBBC8DCA3C
+          048AC594C5AD43F08534E60536DE467150B8AA5CB2935C5D0A116180641016AA
+          7153E4E56D0C3F089A4272A536880F81BA1804374268E46D0C47084D02828020
+          20080802828020200808DC21CCCE2D40FFD01484C76760664E85BDD66D60DF5F
+          08158777E70684AEBE31E8E8FEA28F8FDA7642417E9E0E8501617F6954CA4550
+          E32C362F8436EF47180CFF849AD3C550E9288ABAFE2A30011DFE5128B559E1AA
+          72C87C101EBDFCAC2F81DB7565BAFBC7D3E4F41CDC6A7F0315257BE0D29983E6
+          81C0DE3E9BD803D7F135012C0771B9E5B50EAC14978C2920B4793F00C5F57E2D
+          0917BF8FCFBC0BFFD2E34661BE056C1838632DA1AC8170A1B9171ACE9540A9DD
+          F83FF823E3B3D0D53BA68F9707CE86F347C0BEAF20BB20B00930084697C25A7A
+          DA3D0ACFFBBEC2DD2BC736FC5B19851059DFA980C0D4FCE43DFC46B02C5E640D
+          0426E6092CE5A5A2186241F60E82787CE3447641B88999A1C89A9F92DC9F6ACF
+          CA18846453A491DFF2369D4CB599E92F961EBEF80403C3DF13164B89B49E74BB
+          692044263088B93F5ED99C48ACEA64A575D66587D56269AE3B38012CE7B37CBF
+          0337504634303CA56FB6B2B24E88A7FEA16F7A4134393D9FF0DE02AC18D9C4D9
+          7EA2C020B4AC80B019252008080282802020080802828090088268D7118D5B7A
+          E39668E1D39B393B835A981038C0DB200E5A6CE664236F088323E45E70C47870
+          4F912DF591066F2B2E891FBC8DCA3C84793B6BF7FFDFEA1F523D0039D4EA4FA8
+          A7BA6C59AB3F9338F4B1A4675833D01CA8190850D7D9F218C77F22C265E10633
+          0749AC10AB648B7B259418421048C9848740301B2080A8A38EF10F879ACD2362
+          784042084CE639264CEA1499F8E3DD60F8C038EE2F1AB30C460FEE0B3C1B3E30
+          1E0D833AD0AF70C3459C94826D3395DA68CF28DA13C45150D324FF5A6F7EB5FE
+          02DFD794494C1B17100000000049454E44AE426082}
+        Stretch = True
+        ExplicitWidth = 65
+      end
+    end
+    object pnlListaTarefas: TPanel
+      Left = 466
+      Top = 11
+      Width = 831
+      Height = 745
+      Caption = 'pnlListaTarefas'
+      TabOrder = 0
+      Visible = False
+    end
+  end
+end
