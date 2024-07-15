@@ -7,7 +7,9 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, model.drawer,View.Dark,
   View.UxieAccordion, model.accordion, Vcl.StdCtrls, model.uxielabeluxie,
   View.UxieButton, model.button, View.UxieIconShape, model.iconshape,
-  Vcl.Imaging.pngimage;
+  Vcl.Imaging.pngimage, Vcl.Grids, AdvObj, BaseGrid, model.uxieGrid, model.table,
+  Vcl.Imaging.jpeg, View.UxieDropdown, model.dropdown, View.UxieInputSearch,
+  model.inputsearch;
 
 type
   TfrmDrawer = class(TForm)
@@ -18,6 +20,14 @@ type
     LQuando: TLabel;
     ImgCloud: TImage;
     pnlListaTarefas: TPanel;
+    pnlTituloSegundoPlano: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Image1: TImage;
+    pnltabela: TPanel;
+    tableListagem: TUxieTable;
+    UxieDropDown1: TUxieDropDown;
+    UxieInputSearch1: TUxieInputSearch;
     procedure FormShow(Sender: TObject);
   private
     { Private declarations }

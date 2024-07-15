@@ -35,6 +35,8 @@ var
 begin
   FDrawer := TfrmDrawer.Create(nil);
   try
+    FDrawer.pnlListaTarefas.Visible:= false;
+    FDrawer.pnlListaTarefas.SendToBack;
     FDrawer.pnlEmptyState.BringToFront;
     FDrawer.pnlEmptyState.Visible := true;
     FDrawer.ShowModal;
@@ -49,6 +51,8 @@ var
 begin
   FDrawer := TfrmDrawer.Create(nil);
   try
+    FDrawer.pnlEmptyState.SendToBack;
+    FDrawer.pnlEmptyState.Visible := false;
     FDrawer.pnlListaTarefas.BringToFront;
     FDrawer.pnlListaTarefas.Visible := true;
     FDrawer.ShowModal;
