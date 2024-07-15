@@ -29,6 +29,7 @@ type
     UxieDropDown1: TUxieDropDown;
     UxieInputSearch1: TUxieInputSearch;
     procedure FormShow(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,6 +42,39 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TfrmDrawer.FormCreate(Sender: TObject);
+begin
+  SimpleDataSet1.CreateDataSet;
+  SimpleDataSet1.Append;
+  SimpleDataSet1ativo.AsBoolean := False;
+  SimpleDataSet1nome.AsString := 'Felipe Alexandre';
+  SimpleDataSet1cpf.AsString := '111111';
+  SimpleDataSet1status.AsInteger := 1;
+  SimpleDataSet1.Post;
+
+  SimpleDataSet1.Append;
+  SimpleDataSet1ativo.AsBoolean := False;
+  SimpleDataSet1nome.AsString := 'Isadora Alves';
+  SimpleDataSet1cpf.AsString := '222222';
+  SimpleDataSet1status.AsInteger := 2;
+  SimpleDataSet1.Post;
+
+  SimpleDataSet1.Append;
+  SimpleDataSet1ativo.AsBoolean := False;
+  SimpleDataSet1nome.AsString := 'Dani Gapasriam';
+  SimpleDataSet1cpf.AsString := '333333';
+  SimpleDataSet1status.AsInteger := 3;
+  SimpleDataSet1.Post;
+
+  SimpleDataSet1.Append;
+  SimpleDataSet1ativo.AsBoolean := False;
+  SimpleDataSet1nome.AsString := 'Caleb';
+  SimpleDataSet1cpf.AsString := '444444';
+  SimpleDataSet1status.AsInteger := 4;
+  SimpleDataSet1.Post;
+
+end;
 
 procedure TfrmDrawer.FormShow(Sender: TObject);
 begin
