@@ -13,6 +13,7 @@ type
     UxieButton2: TUxieButton;
     procedure UxieButton1Click(Sender: TObject);
     procedure UxieButton2Click(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -26,7 +27,7 @@ implementation
 
 {$R *.dfm}
 
-uses view.drawer;
+uses view.drawer, model.task;
 
 
 procedure TForm1.UxieButton1Click(Sender: TObject);
@@ -61,5 +62,7 @@ begin
   end;
 
 end;
+
+
 
 end.
